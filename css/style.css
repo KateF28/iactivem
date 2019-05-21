@@ -352,6 +352,22 @@ p {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.article_name {
+  padding-bottom: 15px;
+  text-transform: uppercase; }
+
+#article {
+  padding: 30px; }
+
+.article img {
+  float: left;
+  max-width: 45%;
+  margin-right: 30px;
+  border: 2px solid #000; }
+
+.article p {
+  text-align: justify; }
+
 @media all and (max-width: 767.99px) {
   .folio__block {
     font-family: 'Open Sans', sans-serif;
@@ -375,4 +391,15 @@ p {
     display: none; }
   .email b {
     padding-left: 0px;
-    padding-right: 0px; } }
+    padding-right: 0px; }
+  #article_name {
+    font-size: 18px;
+    text-transform: uppercase; }
+  #article {
+    padding: 15px; }
+  .article img {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+  .article p {
+    font-size: 14px; } }
