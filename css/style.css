@@ -208,6 +208,16 @@ p {
 .background {
   padding-bottom: 100px; }
 
+.services h5 {
+  font-weight: 700 !important;
+  font-size: 28px;
+  line-height: 24px;
+  color: #d1a04c !important;
+  padding-bottom: 5px; }
+
+.interpl_work {
+  margin-top: 30px; }
+
 .categories_name {
   padding-bottom: 15px; }
 
@@ -271,6 +281,14 @@ p {
 
 .folio__block .card-body {
   padding: 20px 0; }
+
+.slider-block img {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto; }
+
+.other_work img {
+  min-height: 160px; }
 
 .news {
   margin-top: 130px; }
@@ -369,6 +387,8 @@ p {
   text-align: justify; }
 
 @media all and (max-width: 767.99px) {
+  .services h5 {
+    font-size: 18px; }
   .folio__block {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -377,6 +397,18 @@ p {
     font-size: 16px; }
   .folio__block img {
     min-height: 100%; }
+  .slider_name span {
+    font-size: 18px; }
+  .slider-block img {
+    max-width: 95%; }
+  .other_work .card-body {
+    padding-top: 15px;
+    padding-bottom: 0; }
+  .other_work img {
+    max-width: 95%;
+    margin: 0 auto; }
+  .other_work:first-child {
+    margin-top: 30px; }
   .info {
     width: 100% !important; }
   .news {
