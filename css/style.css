@@ -205,6 +205,33 @@ p {
 .expend svg:hover g polygon {
   fill: #EF6DBC; }
 
+.nav {
+  margin-top: 5px; }
+
+.lang {
+  position: relative; }
+
+.lang_block {
+  position: absolute;
+  right: 0px;
+  top: 7px;
+  font-family: 'Orbitron';
+  text-transform: uppercase; }
+
+.lang_block a {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+  .lang_block a:hover {
+    color: #000; }
+  .lang_block a:active {
+    color: #000; }
+
+.navbar-toggle {
+  margin-top: 20px !important;
+  padding-top: 9px !important;
+  padding-bottom: 9px !important; }
+
 .background {
   padding-bottom: 100px; }
 
@@ -317,7 +344,7 @@ p {
 .news p {
   color: #000;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif; }
 
 .news a {
@@ -384,9 +411,13 @@ p {
   border: 2px solid #000; }
 
 .article p {
-  text-align: justify; }
+  text-align: justify;
+  font-weight: 400; }
 
 @media all and (max-width: 767.99px) {
+  .lang_block {
+    right: 15px;
+    top: 0px; }
   .services h5 {
     font-size: 18px; }
   .folio__block {
