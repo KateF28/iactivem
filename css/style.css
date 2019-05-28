@@ -205,6 +205,9 @@ p {
 .expend svg:hover g polygon {
   fill: #EF6DBC; }
 
+.new_paragraph {
+  margin-top: 30px; }
+
 .nav {
   margin-top: 5px; }
 
