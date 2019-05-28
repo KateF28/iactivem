@@ -205,7 +205,7 @@ p {
 .expend svg:hover g polygon {
   fill: #EF6DBC; }
 
-.new_paragraph {
+.interpl_paragraph {
   margin-top: 30px; }
 
 .nav {
@@ -418,6 +418,9 @@ p {
   font-weight: 400; }
 
 @media all and (max-width: 767.99px) {
+  .interpl_video {
+    width: 320px;
+    height: auto; }
   .lang_block {
     right: 15px;
     top: 0px; }
