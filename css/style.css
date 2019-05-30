@@ -244,6 +244,12 @@ p {
   line-height: 40px;
   color: #000; }
 
+.about-span {
+  display: block; }
+
+.about img {
+  margin-bottom: 30px; }
+
 .brainring_imgblock {
   width: 55%; }
 
@@ -445,6 +451,9 @@ p {
   padding-left: 13px;
   padding-right: 10px; }
 
+.email-second {
+  width: 100%; }
+
 .phone {
   font-size: 24px; }
 
@@ -480,6 +489,18 @@ p {
   .brand {
     width: 60px;
     height: 60px; }
+  .categories .subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0; }
+  .equipment-items {
+    padding: 10px 5px !important; }
+  .equipment-item p:first-child {
+    padding-right: 10px;
+    line-height: 1.5; }
+  .equipment-item p:last-child {
+    padding-left: 10px;
+    line-height: 1.5; }
   .about p {
     font-size: 20px;
     line-height: 20px; }
