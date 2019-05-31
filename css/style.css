@@ -516,9 +516,15 @@ p {
   .about p {
     font-size: 20px;
     line-height: 20px; }
+  .about-span {
+    font-size: 18px !important;
+    line-height: 1.4; }
   .interpl_video {
     width: 320px;
     height: auto; }
+  .map {
+    width: 100%;
+    height: 55vh; }
   .lang_block {
     right: 15px;
     top: 0px; }
