@@ -454,6 +454,9 @@ p {
 .email-second {
   width: 100%; }
 
+.map {
+  margin-bottom: 15px; }
+
 .phone {
   font-size: 24px; }
 
@@ -484,6 +487,15 @@ p {
 .article p {
   text-align: justify;
   font-weight: 400; }
+
+#article .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 15px 0; }
 
 @media all and (max-width: 767.99px) {
   .brand {
