@@ -247,6 +247,9 @@ p {
 .about-span {
   display: block; }
 
+.iam-maincolor {
+  color: #ff0000; }
+
 .about img {
   margin-bottom: 30px; }
 
@@ -340,6 +343,7 @@ p {
 
 .folio__block img {
   width: 100%;
+  height: 100%;
   border: solid 2px black;
   min-height: 221px;
   -webkit-box-shadow: 0 15px 20px -20px black;
@@ -537,6 +541,7 @@ p {
   .folio__block .card-body {
     font-size: 16px; }
   .folio__block img {
+    height: 100%;
     min-height: 100%; }
   .slider_name span {
     font-size: 18px; }
@@ -576,3 +581,7 @@ p {
     margin-bottom: 15px; }
   .article p {
     font-size: 14px; } }
+
+@media all and (min-width: 768px) and (max-width: 991.99px) {
+  .folio__block img {
+    height: auto; } }
