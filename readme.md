@@ -1,3 +1,3 @@
 ## 	IACTIVEM
 
-#### Webpage re-slicing
+#### Website re-slicing
