@@ -273,6 +273,9 @@ p {
 .interpl_paragraph {
   margin-top: 30px; }
 
+.interpl_workmt {
+  margin-top: 5px !important; }
+
 .nav {
   margin-top: 5px; }
 
